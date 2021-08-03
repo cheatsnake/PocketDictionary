@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState} from 'react';
 import './App.scss';
 import PromoPage from './components/PromoPage/PromoPage';
 
@@ -61,21 +61,11 @@ function App() {
     setData(newData);
   }
 
-  // console.log('loadParent');
-  // console.log(data);
-  // console.log(promo);
-
   let content = promo ? <PromoPage updateData={updateData}/> : <WordPage data={data} updateData={updateData}/>
 
   return (
     <div className="app">
-
       {content}
-      {/* <WordPage 
-        data={data}
-        updateData={updateData}
-      />
-      <PromoPage updateData={updateData}/> */}
     </div>
   );
 }
