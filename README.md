@@ -6,7 +6,7 @@ An online dictionary that uses a [free online API](https://owlbot.info/) to sear
 
 ## Features
 
-- built on React
-- simple and minimalistic interface
-- adapted for mobile devices
-- uses the free API
+- Built on React
+- Simple and minimalistic interface
+- Adapted for mobile devices
+- Uses the free API
